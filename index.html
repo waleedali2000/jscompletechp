@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 38-67</title>
+</head>
+<body>
+   
+     <!-- ========= task 1 ============== -->
+
+    <a href="JavaScript:void(0)" onclick="say()">click here</a> -->
+
+    <!-- ======= task 2 =============== -->
+
+    <section style="width: 100%; height: 35%; text-align: center; justify-content: space-evenly; display: flex; flex-wrap: wrap;">
+        <div>
+            <div>
+                <img src="mob1.jpg" onclick="thanku()" alt="mobile image 1" style="width: 250px; height: 250px;">
+            </div>
+            <div>
+                <p> price: Rs 14000/- </p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="mob2.jpg" onclick="thanku()" alt="mobile image 1" style="width: 250px; height: 250px;">
+            </div>
+            <div>
+                <p> price: Rs 14000/- </p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="mob3.jpg" onclick="thanku()" alt="mobile image 1" style="width: 250px; height: 250px;">
+            </div>
+            <div>
+                <p> price: Rs 14000/- </p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="mob4.jpg" onclick="thanku()" alt="mobile image 1" style="width: 250px; height: 250px;">
+            </div>
+            <div>
+                <p> price: Rs 14000/- </p>
+            </div>
+        </div>                        
+    </section>
+
+    <!-- ============== task 3 =============== -->
+    
+<section>
+    <table>
+        <tr>
+            <th>
+                Index
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Class
+            </th>
+        </tr>
+
+        <tr id="tr0">
+            <td>
+                0
+            </td>
+            <td>
+                John
+            </td>
+            <td>
+                10
+            </td>
+            <td>
+                <button onclick="del('tr0')"> delete </button>
+            </td>
+        </tr>
+        <tr id="tr1">
+            <td>
+                1
+            </td>
+            <td>
+                Doe
+            </td>
+            <td>
+                9
+            </td>
+            <td>
+                <button onclick="del('tr1')"> delete </button>
+            </td>
+        </tr>
+        <tr id="tr2">
+            <td>
+                2
+            </td>
+            <td>
+                Mark
+            </td>
+            <td>
+                10
+            </td>
+            <td>
+                <button onclick="del('tr2')"> delete </button>
+            </td>
+        </tr>
+        <tr id="tr3">
+            <td>
+                3
+            </td>
+            <td>
+                James
+            </td>
+            <td>
+                8
+            </td>
+            <td>
+                <button onclick="del('tr3')"> delete </button>
+            </td>
+        </tr>
+    </table>
+</section>
+
+
+    <!-- ======= task 4 ============ -->
+    
+<div >
+    <img id="imgChange" src="mob2.jpg" alt="" onmouseover="next()" onmouseout="previous()">
+</div>
+
+    <!-- ========= task 5 ========== -->
+    
+<div style="text-align: center;">
+    <h1 id="counter"> 00 </h1>
+    <button onclick="increase()" style="padding: 5px;"> increase </button>
+    <button onclick="decrease()" style="padding: 5px;"> decrease </button>
+</div>
+
+    <!-- ============== chap 49-52 =============== -->
+
+    <!-- task 1 -->
+
+    <section>
+    <form action="#">
+        <input class="input" type="text" value="first name" >
+        <input class="input" type="text"  value="last name">
+        <input class="input" type="email" value="example@email.com" >
+        <input class="input" type="password"  value="password">
+        <button onclick="subm()" href="JavaScript:void(0)"> submit </button>
+    </form>
+</section>
+
+    <!-- ================ task 2 ============== -->
+
+    <section>
+        <div>
+            <h1>item 1</h1>
+            <p id="para1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, eligendi!
+                Repellendus quisq Lorem ipsum dolor
+                <a href="JavaScript:void(0)" onclick="more( 'para1' )"> read more</a> </p>
+
+            <h1>item 2</h1>
+            <p id="para2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, eligendi!
+                Repellendus quisq Lorem ipsum dolor
+                <a href="JavaScript:void(0)" onclick="more('para2' )"> read more</a> </p>
+            <h1>item 3</h1>
+            <p id="para3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, eligendi!
+                Repellendus quisq Lorem ipsum dolor
+                <a href="JavaScript:void(0)" onclick="more('para3' )"> read more</a> </p>
+        </div>
+    </section>
+
+    <!-- =============== task 3 ================= -->
+
+     <section>
+        <form action='JavaScript:void(0)' onsubmit="sub()" id="frm">
+            <table>
+                <tr>
+                    <td> <label for="fName"> First Name </label> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" id="fName"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="lName"> Last Name </label> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" id="lName"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="email"> Email </label> </td>
+                </tr>
+                <tr>
+                    <td> <input type="email" id="email"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="class"> Class </label> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" id="class"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="group"> Group </label> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" id="group"> </td>
+                </tr>
+                <tr>
+                    <td> <input type="submit"> </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <section id="sec2">
+
+    </section> --> -->
+
+    <section>
+        <form action="JavaScript:void(0)" id="frm" onsubmit="sub()">
+
+            <p> First Name </p>
+            <input type="text" value="">
+            <p> Last Name </p>
+            <input type="text" value="">
+            <p> Email </p>
+            <input type="text" value="">
+            <p> Class </p>
+            <input type="text" value="">
+            <p> Group </p>
+            <input type="text" value="">
+            
+            <input type="submit">
+        </form>
+    </section>
+
+    
+    <section id="sec2">
+
+    </section>   
+
+
+    <script src="app.js" ></script>
+</body>
+</html>
